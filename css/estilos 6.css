@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #1B1726;
+	
+}
+
+/*CABECERA*/
+
+header{
+	max-width: 1000px;
+	min-height: 130px;
+	margin: 0 auto;
+	border-radius: 20px 20px 0 0;
+	/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#ffffff+3,ededed+13 */
+background: linear-gradient(to bottom,  #ffffff 3%,#ededed 13%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: violet;
+
+
+}
+
+
+#logo{
+	width: 320px;
+	float: left;
+	margin-top: 20px;
+	margin-left:20px ;
+}
+
+/*CABECERA*/
+
+
+
+
+/*MENU-HORIZONTAL*/
+
+}
+
+
+
+
+
+
+#menu-h a:hover{
+	background: blue;
+
+
+}
+
+
+
+
+
+
+}
+
+#menu-h ul li:hover ul{
+	display: block;
+}
+
+/*MENU-HORIZONTAL*/
+
+
+
+#banner{
+	max-width: 1000px;
+	min-height: 250px;
+	background: #fff;
+	margin: 0 auto;
+
+}
+
+#contenedor{
+	max-width: 1000px;
+	min-height: 700px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+
+/*MENU-VERTICAL*/
+#menu-v{
+	width: 300px;
+	min-height: 700px;
+	background: #ccc;
+	float: left;
+
+}
+
+#menu-v ul{
+	list-style: none;
+
+}
+
+
+#menu-v a{
+	display: block;
+	color: violet;
+	background: #000;
+	padding: 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#menu-v a:hover{
+	background: blue;
+}
+
+/*MENU-VERTICAL*/
+
+
+/*CONTENIDO*/
+
+#contenido{
+	width: 700px;
+	min-height: 700px;
+	background: #fff;
+	float: right;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 13px;
+    padding-right: 84px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #c9c6c6;
+    text-align: left;
+  }
+  
+  td:nth-child(1) {
+    width: 50px;
+    height: 72px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  td:nth-child(2),
+  td:nth-child(3),
+  td:nth-child(4) {
+    width: 25%;
+    margin: 100px;
+  }
+  
+  td:nth-child(2) {
+    text-align: center;
+  }
+  
+  td:nth-child(3) {
+    text-align: center;
+  }
+  
+  td:nth-child(4) {
+    text-align: center;
+  }
+
+
+#contenido h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+
+}
+
+.img-izq{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 250px;
+	border: 1px solid #ccc;
+	padding: 5;
+}
+
+
+
+
+
+/*CONTENIDO*/
+
+footer{
+	max-width: 1000px;
+	min-height: 130px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 0 0 20px 20px;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 18px;
+
+}
